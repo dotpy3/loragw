@@ -1,3 +1,5 @@
+//! Bindings to use a GPS chip, and to use it to extract packet metadata.
+
 extern crate time;
 
 use self::time::{Tm,now};

@@ -1,3 +1,5 @@
+//! Bindings to retrieve and push packets from the concentrator.
+
 #[repr(C)]
 pub struct LoRaGWTxPacket {
     Frequency: u32,
